@@ -67,7 +67,7 @@ a:link {
   }
   section {
     height: 500px;
-    width: 1400px;
+  
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 100px;
