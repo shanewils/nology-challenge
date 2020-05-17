@@ -82,7 +82,7 @@ a:link {
 
   }
 
-  div2{
+  div2 {
     
     background-color: #ade8c1;
     font-size: 75px;
@@ -91,9 +91,14 @@ a:link {
     padding-top: 50px;
     padding-bottom: 0px;
     margin-bottom: 0;
-    vertical-align:middle"
-
+    vertical-align:middle;
+    transition-duration: 0.4s;
+    cursor: pointer;
   
+  }
+
+  div2:hover {
+    background-color: rgb(70, 235, 70);
   }
 
   .textbox{
@@ -107,3 +112,57 @@ a:link {
       font-size: 10px;
   }
 
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ade8c1;
+    overflow-x: auto;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    margin-top: 0;
+    position: relative;
+  
+   
+  }
+  
+  .sidenav a:hover {
+    color:black
+  }
+  
+  .main2 {
+    
+      
+      background-color: white;
+      padding: 50px;
+      font-size: 10px;
+      margin-left: 300px;
+      margin-right: 100px;
+      margin-top: 50px;
+    
+
+  
+  
+  }
+  .main1 {
+    margin-left: 100px; 
+    margin-right: 100px;
+    margin-top:50px;
+    background-color: white;
+    padding: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
