@@ -122,6 +122,7 @@ a:link {
     background-color: #ade8c1;
     overflow-x: auto;
     padding-top: 20px;
+    float: left;
   }
   
   .sidenav a {
@@ -132,6 +133,7 @@ a:link {
     display: block;
     margin-top: 0;
     position: relative;
+    height: 100%;
   
    
   }
@@ -146,9 +148,10 @@ a:link {
       background-color: white;
       padding: 50px;
       font-size: 10px;
-      margin-left: 300px;
       margin-right: 100px;
       margin-top: 50px;
+      float: right;
+      width:73%
     
 
   
